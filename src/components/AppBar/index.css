@@ -1,0 +1,9 @@
+.appbar-banner {
+	height: 48px;
+	background-color: var(--primary-color);
+}
+
+.appbar-link {
+	margin-left: 8px;
+	line-height: 48px;
+}
