@@ -17,9 +17,9 @@ interface RouteMeta {
 
 export const defaultRoute: RouteObject & RouteMeta = {
 	path: '/front',
-		element: createElement(Front),
-		title: 'Front',
-		onAppBar: true
+	element: createElement(Front),
+	title: 'Front',
+	onAppBar: true
 };
 
 export const routeList: (RouteObject & RouteMeta)[] = [
